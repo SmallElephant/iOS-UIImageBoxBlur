@@ -15,6 +15,7 @@
 		C5CB653A1C4759400060FA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB65381C4759400060FA80 /* LaunchScreen.storyboard */; };
 		C5CB65451C4759400060FA80 /* iOS_UIImageBoxBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB65441C4759400060FA80 /* iOS_UIImageBoxBlurTests.m */; };
 		C5CB65501C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB654F1C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m */; };
+		C5CB65601C4761CB0060FA80 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C5CB654B1C4759400060FA80 /* iOS-UIImageBoxBlurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-UIImageBoxBlurUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CB654F1C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_UIImageBoxBlurUITests.m; sourceTree = "<group>"; };
 		C5CB65511C4759400060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB655E1C4761CB0060FA80 /* UIImage+FEBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FEBoxBlur.h"; sourceTree = "<group>"; };
+		C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FEBoxBlur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C5CB65291C4759400060FA80 /* iOS-UIImageBoxBlur */ = {
 			isa = PBXGroup;
 			children = (
+				C5CB655D1C4761B50060FA80 /* cagetroy */,
 				C5CB652D1C4759400060FA80 /* AppDelegate.h */,
 				C5CB652E1C4759400060FA80 /* AppDelegate.m */,
 				C5CB65301C4759400060FA80 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				C5CB65511C4759400060FA80 /* Info.plist */,
 			);
 			path = "iOS-UIImageBoxBlurUITests";
+			sourceTree = "<group>";
+		};
+		C5CB655D1C4761B50060FA80 /* cagetroy */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB655E1C4761CB0060FA80 /* UIImage+FEBoxBlur.h */,
+				C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */,
+			);
+			name = cagetroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				C5CB65321C4759400060FA80 /* ViewController.m in Sources */,
 				C5CB652F1C4759400060FA80 /* AppDelegate.m in Sources */,
+				C5CB65601C4761CB0060FA80 /* UIImage+FEBoxBlur.m in Sources */,
 				C5CB652C1C4759400060FA80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

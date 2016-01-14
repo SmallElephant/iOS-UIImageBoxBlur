@@ -1,7 +1,7 @@
 //
 //  UIImage+FEBoxBlur.h
 //  iOS-UIImageBoxBlur
-//
+//http://indieambitions.com/idevblogaday/perform-blur-vimage-accelerate-framework-tutorial/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+IndieAmbitions+%28Indie+Ambitions%29
 //  Created by keso on 16/1/14.
 //  Copyright © 2016年 FlyElephant. All rights reserved.
 //

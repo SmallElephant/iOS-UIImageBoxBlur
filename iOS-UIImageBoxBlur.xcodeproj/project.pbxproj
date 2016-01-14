@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CB652C1C4759400060FA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB652B1C4759400060FA80 /* main.m */; };
+		C5CB652F1C4759400060FA80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB652E1C4759400060FA80 /* AppDelegate.m */; };
+		C5CB65321C4759400060FA80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB65311C4759400060FA80 /* ViewController.m */; };
+		C5CB65351C4759400060FA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB65331C4759400060FA80 /* Main.storyboard */; };
+		C5CB65371C4759400060FA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CB65361C4759400060FA80 /* Assets.xcassets */; };
+		C5CB653A1C4759400060FA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB65381C4759400060FA80 /* LaunchScreen.storyboard */; };
+		C5CB65451C4759400060FA80 /* iOS_UIImageBoxBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB65441C4759400060FA80 /* iOS_UIImageBoxBlurTests.m */; };
+		C5CB65501C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB654F1C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m */; };
+		C5CB65601C4761CB0060FA80 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5CB65411C4759400060FA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CB651F1C4759400060FA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CB65261C4759400060FA80;
+			remoteInfo = "iOS-UIImageBoxBlur";
+		};
+		C5CB654C1C4759400060FA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CB651F1C4759400060FA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CB65261C4759400060FA80;
+			remoteInfo = "iOS-UIImageBoxBlur";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5CB65271C4759400060FA80 /* iOS-UIImageBoxBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UIImageBoxBlur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB652B1C4759400060FA80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5CB652D1C4759400060FA80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5CB652E1C4759400060FA80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5CB65301C4759400060FA80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5CB65311C4759400060FA80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5CB65341C4759400060FA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5CB65361C4759400060FA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5CB65391C4759400060FA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5CB653B1C4759400060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB65401C4759400060FA80 /* iOS-UIImageBoxBlurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-UIImageBoxBlurTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB65441C4759400060FA80 /* iOS_UIImageBoxBlurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_UIImageBoxBlurTests.m; sourceTree = "<group>"; };
+		C5CB65461C4759400060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB654B1C4759400060FA80 /* iOS-UIImageBoxBlurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-UIImageBoxBlurUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB654F1C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_UIImageBoxBlurUITests.m; sourceTree = "<group>"; };
+		C5CB65511C4759400060FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CB655E1C4761CB0060FA80 /* UIImage+FEBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FEBoxBlur.h"; sourceTree = "<group>"; };
+		C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FEBoxBlur.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CB65241C4759400060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB653D1C4759400060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB65481C4759400060FA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CB651E1C4759400060FA80 = {
+			isa = PBXGroup;
+			children = (
+				C5CB65291C4759400060FA80 /* iOS-UIImageBoxBlur */,
+				C5CB65431C4759400060FA80 /* iOS-UIImageBoxBlurTests */,
+				C5CB654E1C4759400060FA80 /* iOS-UIImageBoxBlurUITests */,
+				C5CB65281C4759400060FA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CB65281C4759400060FA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB65271C4759400060FA80 /* iOS-UIImageBoxBlur.app */,
+				C5CB65401C4759400060FA80 /* iOS-UIImageBoxBlurTests.xctest */,
+				C5CB654B1C4759400060FA80 /* iOS-UIImageBoxBlurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CB65291C4759400060FA80 /* iOS-UIImageBoxBlur */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB655D1C4761B50060FA80 /* cagetroy */,
+				C5CB652D1C4759400060FA80 /* AppDelegate.h */,
+				C5CB652E1C4759400060FA80 /* AppDelegate.m */,
+				C5CB65301C4759400060FA80 /* ViewController.h */,
+				C5CB65311C4759400060FA80 /* ViewController.m */,
+				C5CB65331C4759400060FA80 /* Main.storyboard */,
+				C5CB65361C4759400060FA80 /* Assets.xcassets */,
+				C5CB65381C4759400060FA80 /* LaunchScreen.storyboard */,
+				C5CB653B1C4759400060FA80 /* Info.plist */,
+				C5CB652A1C4759400060FA80 /* Supporting Files */,
+			);
+			path = "iOS-UIImageBoxBlur";
+			sourceTree = "<group>";
+		};
+		C5CB652A1C4759400060FA80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB652B1C4759400060FA80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5CB65431C4759400060FA80 /* iOS-UIImageBoxBlurTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB65441C4759400060FA80 /* iOS_UIImageBoxBlurTests.m */,
+				C5CB65461C4759400060FA80 /* Info.plist */,
+			);
+			path = "iOS-UIImageBoxBlurTests";
+			sourceTree = "<group>";
+		};
+		C5CB654E1C4759400060FA80 /* iOS-UIImageBoxBlurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB654F1C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m */,
+				C5CB65511C4759400060FA80 /* Info.plist */,
+			);
+			path = "iOS-UIImageBoxBlurUITests";
+			sourceTree = "<group>";
+		};
+		C5CB655D1C4761B50060FA80 /* cagetroy */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB655E1C4761CB0060FA80 /* UIImage+FEBoxBlur.h */,
+				C5CB655F1C4761CB0060FA80 /* UIImage+FEBoxBlur.m */,
+			);
+			name = cagetroy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CB65261C4759400060FA80 /* iOS-UIImageBoxBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB65541C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlur" */;
+			buildPhases = (
+				C5CB65231C4759400060FA80 /* Sources */,
+				C5CB65241C4759400060FA80 /* Frameworks */,
+				C5CB65251C4759400060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-UIImageBoxBlur";
+			productName = "iOS-UIImageBoxBlur";
+			productReference = C5CB65271C4759400060FA80 /* iOS-UIImageBoxBlur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5CB653F1C4759400060FA80 /* iOS-UIImageBoxBlurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB65571C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlurTests" */;
+			buildPhases = (
+				C5CB653C1C4759400060FA80 /* Sources */,
+				C5CB653D1C4759400060FA80 /* Frameworks */,
+				C5CB653E1C4759400060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CB65421C4759400060FA80 /* PBXTargetDependency */,
+			);
+			name = "iOS-UIImageBoxBlurTests";
+			productName = "iOS-UIImageBoxBlurTests";
+			productReference = C5CB65401C4759400060FA80 /* iOS-UIImageBoxBlurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5CB654A1C4759400060FA80 /* iOS-UIImageBoxBlurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB655A1C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlurUITests" */;
+			buildPhases = (
+				C5CB65471C4759400060FA80 /* Sources */,
+				C5CB65481C4759400060FA80 /* Frameworks */,
+				C5CB65491C4759400060FA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CB654D1C4759400060FA80 /* PBXTargetDependency */,
+			);
+			name = "iOS-UIImageBoxBlurUITests";
+			productName = "iOS-UIImageBoxBlurUITests";
+			productReference = C5CB654B1C4759400060FA80 /* iOS-UIImageBoxBlurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CB651F1C4759400060FA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5CB65261C4759400060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5CB653F1C4759400060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5CB65261C4759400060FA80;
+					};
+					C5CB654A1C4759400060FA80 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5CB65261C4759400060FA80;
+					};
+				};
+			};
+			buildConfigurationList = C5CB65221C4759400060FA80 /* Build configuration list for PBXProject "iOS-UIImageBoxBlur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5CB651E1C4759400060FA80;
+			productRefGroup = C5CB65281C4759400060FA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CB65261C4759400060FA80 /* iOS-UIImageBoxBlur */,
+				C5CB653F1C4759400060FA80 /* iOS-UIImageBoxBlurTests */,
+				C5CB654A1C4759400060FA80 /* iOS-UIImageBoxBlurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CB65251C4759400060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB653A1C4759400060FA80 /* LaunchScreen.storyboard in Resources */,
+				C5CB65371C4759400060FA80 /* Assets.xcassets in Resources */,
+				C5CB65351C4759400060FA80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB653E1C4759400060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB65491C4759400060FA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CB65231C4759400060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB65321C4759400060FA80 /* ViewController.m in Sources */,
+				C5CB652F1C4759400060FA80 /* AppDelegate.m in Sources */,
+				C5CB65601C4761CB0060FA80 /* UIImage+FEBoxBlur.m in Sources */,
+				C5CB652C1C4759400060FA80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB653C1C4759400060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB65451C4759400060FA80 /* iOS_UIImageBoxBlurTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB65471C4759400060FA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB65501C4759400060FA80 /* iOS_UIImageBoxBlurUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5CB65421C4759400060FA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CB65261C4759400060FA80 /* iOS-UIImageBoxBlur */;
+			targetProxy = C5CB65411C4759400060FA80 /* PBXContainerItemProxy */;
+		};
+		C5CB654D1C4759400060FA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CB65261C4759400060FA80 /* iOS-UIImageBoxBlur */;
+			targetProxy = C5CB654C1C4759400060FA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5CB65331C4759400060FA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CB65341C4759400060FA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5CB65381C4759400060FA80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CB65391C4759400060FA80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5CB65521C4759400060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5CB65531C4759400060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CB65551C4759400060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-UIImageBoxBlur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5CB65561C4759400060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-UIImageBoxBlur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5CB65581C4759400060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-UIImageBoxBlurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlurTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-UIImageBoxBlur.app/iOS-UIImageBoxBlur";
+			};
+			name = Debug;
+		};
+		C5CB65591C4759400060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-UIImageBoxBlurTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlurTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-UIImageBoxBlur.app/iOS-UIImageBoxBlur";
+			};
+			name = Release;
+		};
+		C5CB655B1C4759400060FA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-UIImageBoxBlurUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlurUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-UIImageBoxBlur";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5CB655C1C4759400060FA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-UIImageBoxBlurUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnblogs.www.iOS-UIImageBoxBlurUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-UIImageBoxBlur";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CB65221C4759400060FA80 /* Build configuration list for PBXProject "iOS-UIImageBoxBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB65521C4759400060FA80 /* Debug */,
+				C5CB65531C4759400060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CB65541C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB65551C4759400060FA80 /* Debug */,
+				C5CB65561C4759400060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CB65571C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB65581C4759400060FA80 /* Debug */,
+				C5CB65591C4759400060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CB655A1C4759400060FA80 /* Build configuration list for PBXNativeTarget "iOS-UIImageBoxBlurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB655B1C4759400060FA80 /* Debug */,
+				C5CB655C1C4759400060FA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CB651F1C4759400060FA80 /* Project object */;
+}
